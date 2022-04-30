@@ -32,7 +32,7 @@ section p{
 }
 .heading{
     margin-bottom: 2.667rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: 'Big Shoulders Display', sans-serif;
     color: hsl(0, 0%, 95%);
 }
@@ -72,7 +72,7 @@ section p{
     color: hsl(179, 100%, 13%);
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 850px){
     body{
         height: 100vh;
         justify-content: center;
@@ -81,7 +81,8 @@ section p{
      main{
         display: flex;
         flex-direction: row;
-        width: 65%;
+        width: 63.3%;
+        margin-top: 10%;
     }
     .sedan-section{
         border-radius: 10px 0 0 10px;
@@ -90,7 +91,7 @@ section p{
         border-radius: 0 10px 10px 0;
     }
     .heading{
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
     .logos{
         padding: 3.2rem 0 2rem 0;
